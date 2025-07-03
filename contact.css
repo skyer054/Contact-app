@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background:lightblue;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+#controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color:blue;
+    color: darkblue;
+    border: none;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color:skyblue;
+}
+
+#table {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+    background:white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table th, #table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+#table tr:hover {
+    background: white;
+    cursor: pointer;
+}
+
+#table th {
+    background-color: skyblue;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+}
